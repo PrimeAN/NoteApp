@@ -7,7 +7,7 @@ namespace NoteAppUI
         /// Обязательная переменная конструктора.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        //test1
+        //test2
         /// <summary>
         /// Освободить все используемые ресурсы.
         /// </summary>
