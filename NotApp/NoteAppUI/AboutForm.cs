@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace NoteAppUI
 {
-    public partial class Form1 : Form
+    public partial class AboutForm : Form
     {
-        public Form1()
+        public AboutForm()
         {
             InitializeComponent();
+        }
+
+        private void ApplicationTitleTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AuthorTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
