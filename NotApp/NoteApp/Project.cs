@@ -11,20 +11,12 @@ namespace NoteApp
         /// <summary>
         /// Возвращает и задает список всех заметок
         /// </summary>
-        public List<Note> Notes { get; set; }
+        public List<Note> Notes { get; set; } = new List<Note>();
 
         /// <summary>
         /// Возвращает и задает текущую заметку
         /// </summary>
         public Note CurrentNote { get; set; }
-
-        /// <summary>
-        /// Создает экземпляр <see cref="Project"/>
-        /// </summary>
-        public Project()
-        {
-            Notes = new List<Note>();
-        }
 
         /// <summary>
         /// Метод для сортировки списка заметок по дате изменения (по убыванию)
@@ -45,8 +37,8 @@ namespace NoteApp
         /// <returns></returns>
         public List<Note> LastChangeTimeSortWithCategory(NoteCategory category)
         {
-            return Notes.OrderByDescending(note => note.LastChangeTime).
-                Where(note => note.Category == category).ToList();
+            return Notes.Where(note => note.Category == category).
+                OrderByDescending(note => note.LastChangeTime).ToList();
         }
     }
 }

@@ -269,7 +269,7 @@ namespace NoteAppUI
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            //todo ИЗМЕНЕНИЕ РАЗМЕРОВ
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)

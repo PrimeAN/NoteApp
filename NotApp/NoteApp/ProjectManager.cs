@@ -19,7 +19,7 @@ namespace NoteApp
         /// </summary>
         public static string DefaultPath { get; set; } =
             Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
-            "\\NoteApp\\NoteApp.notes";
+            "\\NoteApp\\" + FileName;
 
         /// <summary>
         /// Метод для сохранения данных в файл
@@ -64,7 +64,7 @@ namespace NoteApp
             }
             catch (Exception e)
             {
-                new Project();
+                return new Project();
             }
             
             return project;
