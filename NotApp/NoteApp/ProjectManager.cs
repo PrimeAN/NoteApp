@@ -51,7 +51,7 @@ namespace NoteApp
 
             if (!File.Exists(path))
             {
-                throw new ArgumentException($"Файл по пути: {path}. Несуществует!");
+                throw new ArgumentException($"File along the path: {path}. Does not exist!");
             }
 
             try

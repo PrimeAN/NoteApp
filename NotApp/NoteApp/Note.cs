@@ -11,7 +11,7 @@ namespace NoteApp
         /// <summary>
         /// Название заметки. Название не должно превышать 50 символов.
         /// </summary>
-        private string _name = "Без названия";
+        private string _name = "Untitled";
         
         /// <summary>
         /// Возвращает и задает название заметки
@@ -24,11 +24,11 @@ namespace NoteApp
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException("Название должно быть!");
+                    throw new ArgumentException("The title should be!");
                 }
                 if (value.Length > 50)
                 {
-                    throw new ArgumentException("Название не должно превышать 50 символов!");
+                    throw new ArgumentException("Title must not exceed 50 characters!");
                 }
         
                 _name = value;
