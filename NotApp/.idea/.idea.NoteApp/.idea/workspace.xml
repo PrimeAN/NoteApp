@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed179f06-512f-46fa-b755-55fa6b922cf8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/Form1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/Form1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/NoteAppUI.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/Properties/Resources.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/Properties/Resources.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/Properties/Settings.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoteAppUI/NoteAppUI/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoteApp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoteApp/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoteApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoteApp/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +61,7 @@
       <workItem from="1637432464717" duration="444000" />
       <workItem from="1637932791243" duration="157000" />
       <workItem from="1637933333066" duration="640000" />
+      <workItem from="1638793445577" duration="724000" />
     </task>
     <servers />
   </component>
